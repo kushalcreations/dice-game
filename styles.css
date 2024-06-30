@@ -12,6 +12,7 @@
 
 body {
   background-color: #393E46;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -47,5 +48,51 @@ a {
 
 a:hover {
   color: #F4A261;
+}
+
+button {
+  background-color: #4ECCA3;
+  color: #222831;
+  font-size: 1.5rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+  font-family: 'Indie Flower', cursive;
+}
+
+button:hover {
+  background-color: #F4A261;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
 }
 
